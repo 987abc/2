@@ -1,0 +1,13 @@
+1 - Creating and Managing Vector Data, line,point,poly || Calculating line lengths and statistics, railway length (rails.shp) ($length/1000)
+
+2 - Exploring and Managing Raster data, polulation difference (90, 00) (0-240, -20000-6000 (-10,10))|| Raster Mosaicking and Clipping, merge, import india shape boundary and clip it. (fas)
+
+3 - creating map, use existing map in map layout, print the map (clip)|| Importing Spreadsheets or CSV files, import data from excel file, sample.csv (x=longitude, y=latitude)|| Using Plugins || Searching and Downloading OpenStreetMap Data, QuickMapServices & OSM place search these two extensions are required
+
+4 - working with attributes, populated_places_simple.zip (pop_max>100 AND pop_max<10000 AND "sov0name"='India')|| Terrain Data and Hill shade analysis, contour (lines with a particular altitude/elevation) (mea) (86.92, 27.98) (900000) contour:(ELVE)(-20000)
+
+5 - Working with Projections and WMS Data, two layers (raster and vector) overlap, countries_data.zip (102008, 27700)
+
+
+4th prac chi file 8th prac folder madhe ahe.
+5th prac madhe ti tif file ani ti dusari file la eak folder/ekatra aan.
