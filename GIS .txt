@@ -1,0 +1,46 @@
+Practical 1 
+	d) (rails.shp) both vector (india map and railway) (calculate railway length)
+		open attribute table - calculator ($length/1000)
+		vector - analysis tool - basic static 
+
+
+Practical 2
+	a) (90, 00) adding 2 raster layer 
+		change color of both raster layer same
+	b) calculate the difference in (raster - raster calculator)
+		bigger - smaller (2 raster)
+		difference - symbology - discrete (-20000 to 6000)
+		info (i) button
+	c) (fas_india) Merging and clipping of 4 image (image = raster)
+		raster - mislanious - merge (input layer - 4 image)
+		(IND_adm0.shp) add india image (vector)
+		clipping 
+			raster - extraction - mask layer
+			input layer (merge image)
+			
+Practical 3
+	a) Making map labels (open clipped map)
+		Project - new print layout
+	b) importing excel (csv.file)
+		add layer - add delimited text layer (custom delimiter)
+	c) Plugins (OSM place search, quick map search)
+		web - quick map services - OSM
+	
+Practical 4
+	a) (populated_places_simple.zip) 
+		add vector layer (himalaya)
+		open attribute - select expression (pop_max>100 AND pop_max<10000 AND "sov0name"='India')
+	b) (mea) add raster layer 
+		(86.92, 27.98) (900000)
+		Raster - Extraction - Clip Raster by Extent
+		Clipping extent - use map canvas extent 
+		Raster - Extraction - Contour (interval - 100 - ELEV)
+		label - ELEV symbology (width 0.20000)
+		open attribute (sort elev) - zoom 
+		
+Practical 5 (Overlap vector and raster)
+	a) (countries_data.zip) add vector layer - countries.zip
+		save as
+		CRS - 102008
+		(miniscale) add raster layer (file and image at the same folder)
+		right click on layer - layer CRS - set layer CRS - 27700
